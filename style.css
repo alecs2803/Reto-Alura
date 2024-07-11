@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(./img/pexels.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+.logo-img{
+    width: 200px;
+    height: 100px;
+    top: 40px;
+    left: 40%;
+    gap: 40px;
+}
+
+.cuerpo{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 2% 6%;
+    justify-content: space-around;
+
+}
+
+
+.rectangulo-captura{
+    background-color: rgb(22, 45, 78);
+    width: 400px;
+    height: 600px;
+    margin: 5px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem 1rem 2rem 1rem;
+    box-sizing: border-box;
+    
+}
+
+.estilo-imput{
+    position: relative;
+}
+
+.estilo-imput input{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #26c61e;
+    background: transparent;
+    color: #fff;
+    outline: none;
+
+}
+
+.estilo-imput label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #e8e0e0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .4s;
+}
+
+input:focus ~ label {
+    top: 0%;
+    left: 15%;
+    font-size: 16px;
+    padding: 0 2px;
+    background-color: #26c61e;
+}
+
+.rectangulo-botones{
+    background-color: transparent;
+    width: 300px;
+    height: 100px;
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem 1rem 1rem 1rem;
+    
+}
+
+.boton-encriptar{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #343A40;
+    border-radius: 10px;
+    color: #26c61e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}    
+
+.boton-desencriptar{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #343A40;
+    border-radius: 10px;
+    color: #26c61e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}   
+
+
+.titulo-letras-nm{
+    font-family: "Open Sans", sans-serif;
+    margin: 10%;
+    font-size: 12px;
+    color: #fff;
+}
+
+.rectangulo-imagen-titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+.rectangulo-datos{
+    background-color: rgb(22, 45, 78);
+    width: 400px;
+    height: 600px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px 16px 32px 16px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rectangulo-titulo-contenido{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo-1{
+
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+
+}
+
+
+.parrafo-1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+
+
+
+}
+
+
+.muneco{
+    width: 300px;
+    height: 250px;
+    top: 283px;
+    left: 1032px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+
+
+
+}
+
+.Destaque-rojo{
+    color: red;
+
+}
+
+
+
+
+
+
+
+
